@@ -1,0 +1,106 @@
+/* login */
+.login{
+    flex:1;
+    padding: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.login h3{
+    font-size: medium;
+    margin-bottom: 10px;
+}   
+.login p{
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#loginform{
+    display: flex;
+    flex-direction: column;
+}
+#loginform label{
+    margin:10px 0 5px;
+    font-size: 16px;
+}
+#loginform input{
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+#loginform button{
+    padding: 12px;
+    font-size: 16px;
+    background-color:darkcyan;
+    color: #fff;
+    border:none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#loginform button:hover{
+    background-color: #0056b3;
+}
+
+.error-message{
+    color:red;
+    margin-top: 10px;
+}
+
+/* landing */
+
+.container{
+    width:90%;
+    max-width: 1200px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 px 12px rgba(0,0,0,0.1);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.header h1{
+    font-size: 24px;
+}
+.header button{
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.header button:hover{
+    background-color: #0056b3;
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+table,th,td{
+    border:1px solid #ddd;
+}
+th,td{
+    padding:12px;
+    text-align: left;
+}
+td input[type="checkbox"]{
+    transform:scale(1.2);
+}
+
+td button{
+    padding: 5px 10px;
+    font-size: 12px;
+    margin: 2px;
+    border: none;
+    border-radius: 6px;
+    cursor:pointer;
+}

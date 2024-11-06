@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"
+</head>     
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Student List</h1>
+            <button onclick="addStudent()">Add Student</button>
+            <button onclick="logout()">Logout</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Age</th>
+                    <th>Email Address</th>
+                    <th>Contact No.</th>
+                    <th>Degree 1</th>
+                    <th>Degree 2</th>
+                    <th>Degree 3</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="studentTable"> <!--sample data row -->
+                <tr>
+                    <td>Jotaro Jostar</td>
+                    <td>22</td>
+                    <td>jj@gmail.com</td>
+                    <td>9988776655</td>
+                    <td><input type="checkbox" class="degree1" disabled></td>
+                    <td><input type="checkbox" class="degree2" disabled></td>
+                    <td><input type="checkbox" class="degree3" disabled></td>
+                    <td>
+                        <button onclick="editStudent(this)">Edit</button>
+                        <button onclick="deleteStudent(this)">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

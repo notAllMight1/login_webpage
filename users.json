@@ -1,0 +1,26 @@
+{
+    "users":[
+        {
+            "first_name": "Rei",
+            "last_name":"Shinji",
+            "phone_number":"1234567890",
+            "user_id":"rei_123",
+            "password": "pass@123",
+            "degree":{
+                "type":"Masters",
+                "Field":"Computer Applications and Engineering"
+            }
+        },
+        {
+            "first_name": "Moe",
+            "last_name":"Haraki",
+            "phone_number":"9876543210",
+            "user_id":"moe_321",
+            "password": "pass@321",
+            "degree":{
+                "type":"Masters",
+                "Field":"Computer Applications and Engineering"
+            }
+        }
+    ]
+}
